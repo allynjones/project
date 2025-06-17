@@ -1,0 +1,105 @@
+/* Pink aesthetic theme for Capture Moments */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background: #fff0f5;
+    color: #4a2c2a;
+}
+
+header {
+    background: #e84393;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    background: #d63384;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    background: #fff;
+    margin: 10px auto;
+    max-width: 900px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+/* Hero section upgrade */
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #c0397f;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    margin: 20px 0;
+}
+
+.hero .cta-button {
+    display: inline-block;
+    background-color: #ff6bcb;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero .cta-button:hover {
+    background-color: #ff3cac;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #e84393;
+    color: white;
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Gallery grid layout */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
